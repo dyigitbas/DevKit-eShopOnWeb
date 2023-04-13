@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>  
+    <RootNamespace>BlazorShared</RootNamespace>
+    <AssemblyName>BlazorShared</AssemblyName>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BlazorInputFile" Version="0.2.0" />
+    <PackageReference Include="FluentValidation" Version="11.5.1" />
+  </ItemGroup>
+
+</Project>
