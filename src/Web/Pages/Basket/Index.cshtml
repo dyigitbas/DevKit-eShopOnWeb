@@ -55,6 +55,10 @@
                     <article class="esh-basket-items row">
                         <section class="esh-basket-item col-xs-10"></section>
                         <section class="esh-basket-item esh-basket-item--mark col-xs-2">
+                            @if (Model.BasketModel.WasDiscountApplied())
+                            {
+                                <section>Congratulations! You got a discount!</section>
+                            }
                             $@Model.BasketModel.Total().ToString("N2")
                         </section>
                     </article>
